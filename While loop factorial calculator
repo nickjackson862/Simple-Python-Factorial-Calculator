@@ -1,0 +1,19 @@
+#factorial calculator function
+def FactorialCalculator(num):
+    if num<=0:
+        print("number must be greater than zero")
+    else:
+        factorial = num
+        while num >1:
+            factorial = factorial * (num-1)
+            num = num-1
+        return(factorial)
+        
+
+#driver code
+num = int(input("enter an integer: "))
+factorial = FactorialCalculator(num)
+print(factorial)
+
+
+
