@@ -13,7 +13,7 @@ def FactorialCalculator(num):
 #driver code
 num = int(input("enter an integer: "))
 factorial = FactorialCalculator(num)
-print(factorial)
+print("The factorial of",num,"is",factorial)
 
 
 
